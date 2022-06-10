@@ -47,6 +47,14 @@
        color:black;
     }
 
+    .active-nav-link {
+      border-bottom: 1px solid black; 
+    }
+
+    .active-nav-link a {
+      color: black !important;
+    }
+
     .portfolio-items-wrapper {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
