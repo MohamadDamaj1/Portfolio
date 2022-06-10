@@ -79,7 +79,16 @@
       margin-bottom: 20px;
     }
 
-    .subtitle {
+    .img-text-wrapper .subtitle{
+      transition: 1s;
+    }
+
+    .img-text-wrapper:hover .subtitle {
       font-weight: 600;
       color: lightseagreen;
+    }
+    
+    .img-dearken{
+      transition: 1s;
+      filter: brightness(10%);
     }
