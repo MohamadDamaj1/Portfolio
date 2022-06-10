@@ -103,3 +103,7 @@
     .profile-image-wrapper img {
       width: 100%;
     }
+
+    .profile-content-wrapper {
+      padding: 30px;
+    }
