@@ -2,7 +2,8 @@ const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
 
 portfolioItems.forEach(portfolioItem => {
     portfolioItem.addEventListener('mouseover', () => {
-        portfolioItem.childNodes[1].classList;
+        console.log(portfolioItem.childNodes[1].classList);
+        portfolioItem.childNodes[1].classList.add('img-darken');
 
     })
 }
